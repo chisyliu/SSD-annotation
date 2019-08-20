@@ -1,4 +1,7 @@
+主要是对ssd的pytorch代码的注释，以下为原来代码库的readme
+
 # SSD: Single Shot MultiBox Object Detector, in PyTorch
+
 A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325) from the 2016 paper by Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang, and Alexander C. Berg.  The official and original Caffe code can be found [here](https://github.com/weiliu89/caffe/tree/ssd).
 
 
@@ -22,6 +25,7 @@ A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detecto
 ## Installation
 - Install [PyTorch](http://pytorch.org/) by selecting your environment on the website and running the appropriate command.
 - Clone this repository.
+  
   * Note: We currently only support Python 3+.
 - Then download the dataset by following the [instructions](#datasets) below.
 - We now support [Visdom](https://github.com/facebookresearch/visdom) for real-time loss visualization during training!
